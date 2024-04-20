@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: #e7dada;
+}
+header{
+    background-color: black;
+    padding: 50px 0;
+    box-shadow: 0px 5px 10px rgb(82, 82, 82);
+}
+header h1{
+    text-align: center;
+    color: #E8F1ED ;
+}
+section{
+    /* background-color:#3e49ec; */
+    margin: 0 auto;
+    width: 300px;
+}
+/* Aca estoy estilizando la tarejta */
+.tarjeta{
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top:20px;
+    cursor: pointer;
+
+    /* height: 600px; */
+}
+.tarjeta:hover{
+        /*horizontal vertical difumen*/
+    box-shadow: 3px 3px 15px #615f5f;
+}
+/* la imagen se ajusta al tamanio de la tarjeta */
+.tarjeta img{
+    width: 100%;
+}
+footer{
+    background-color: cornflowerblue;
+    padding: 50px 0;
+    text-align: center; 
+    margin-top: 50px;  
+}
+footer p{
+    font-size: 20px;
+}
+
+/* Estilos para fondo */
+
+.fondo{
+    text-align: center;
+    width: 100%;
+    
+    background-image: url(MODELOS/FONDO.png) ;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center ;
+}
+.fondo h2{
+    font-size: 40px;
+    color: white;
+}
+.bg-negro{
+    background-color: rgb(0 0 0 / 40%);
+    padding: 250px 0;
+}
